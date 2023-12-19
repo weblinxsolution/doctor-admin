@@ -7,7 +7,7 @@
         <div class="container-fluid">
             <div class="row mb-2">
                 <div class="col-sm-6">
-                    <h1 class="m-0">Doctors</h1>
+                    <h1 class="m-0">Patient</h1>
                 </div>
             </div><!-- /.row -->
         </div><!-- /.container-fluid -->
@@ -33,8 +33,8 @@
                             <div class="input-group-prepend">
                                 <span class="input-group-text" id="basic-addon1">@</span>
                             </div>
-                            <input type="text" class="form-control" placeholder="Specialization"
-                                aria-label="Username" aria-describedby="basic-addon1">
+                            <input type="text" class="form-control" placeholder="Disease / Illness" aria-label="Username"
+                                aria-describedby="basic-addon1">
                         </div>
                     </div>
                     <div class="col-12 col-md-4">
@@ -45,42 +45,39 @@
             <table class="table">
                 <thead>
                     <tr>
-                        <th scope="col" class="w-10">Profile Photo</th>
+                        <th scope="col">Patient ID</th>
                         <th scope="col">Name</th>
-                        <th scope="col">Specialization</th>
-                        <th scope="col">Experience</th>
-                        <th scope="col" class="w-7">Fees ($/hr)</th>
-                        <th scope="col">Availability</th>
-                        <th scope="col">Description</th>
-                        <th scope="col">Reviews</th>
-                        <th scope="col">Feedback</th>
-                        <th scope="col">Details</th>
+                        <th scope="col">Disease / illness</th>
+                        <th scope="col">Appointed by</th>
+                        <th scope="col">Date</th>
+                        <th scope="col">Time Slot</th>
+                        <th scope="col">Action</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <td><img src="dist/img/doctor1.png" class="w-auto" alt=""></td>
-                        <td>Dr. Emily Johnson</td>
-                        <td>Cardiology</td>
-                        <td>15 years</td>
-                        <td>150</td>
-                        <td>Monday to Friday, 9 AM - 5 PM</td>
-                        <td>Experienced cardiologist specializing in heart diseases.</td>
-                        <td>4.5/5 stars (28 reviews)</td>
-                        <td>Very knowledgeable and caring. Explained the diagnosis thoroughly.</td>
-                        <td><a href="details.php" class="btn btn-danger">Details</a></td>
+                        <td>101</td>
+                        <td>John Doe</td>
+                        <td>Fever</td>
+                        <td>Dr. Smith</td>
+                        <td>2023-12-19</td>
+                        <td>10:00 AM - 11:00 AM</td>
+                        <td>
+                            <button class="btn btn-primary">Edit</button>
+                            <button class="btn btn-danger">Delete</button>
+                        </td>
                     </tr>
                     <tr>
-                        <td><img src="dist/img/doctor2.png" class="w-auto" alt=""></td>
-                        <td>Dr. Michael Davis</td>
-                        <td>Orthopedics</td>
-                        <td>12 years</td>
-                        <td>120</td>
-                        <td>Tuesday, Thursday, Saturday, 10 AM - 3 PM</td>
-                        <td>Orthopedic surgeon with expertise in joint replacements.</td>
-                        <td>4.8/5 stars (35 reviews)</td>
-                        <td>Prompt and efficient service. Answered all my questions patiently.</td>
-                        <td><a href="details.php" class="btn btn-danger">Details</a></td>
+                        <td>102</td>
+                        <td>Jane Smith</td>
+                        <td>Headache</td>
+                        <td>Dr. Johnson</td>
+                        <td>2023-12-20</td>
+                        <td>02:30 PM - 03:30 PM</td>
+                        <td>
+                            <button class="btn btn-primary">Edit</button>
+                            <button class="btn btn-danger">Delete</button>
+                        </td>
                     </tr>
                 </tbody>
             </table>

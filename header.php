@@ -33,9 +33,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- Bootstrap 5 -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
@@ -68,7 +65,7 @@
     <!-- Main Sidebar Container -->
     <aside class="main-sidebar sidebar-dark-primary elevation-4">
       <!-- Brand Logo -->
-      <a href="index.php" class="brand-link">
+      <a href="index.php" class="brand-link text-decoration-none">
         <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
           style="opacity: .8">
         <span class="brand-text font-weight-light">Admin</span>
@@ -122,6 +119,83 @@
                 <i class="fa-solid fa-star"></i>
                 <p>
                   Acheivements
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">
+                <i class="fa-solid fa-lock"></i>
+                <p>
+                  Content
+                  <i class="right fas fa-angle-left"></i>
+                </p>
+              </a>
+              <ul class="nav nav-treeview">
+                <li class="nav-item">
+                  <a href="about-content.php" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>About Content</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="terms-condition.php" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Terms and Condition</p>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="privacy-policy.php" class="nav-link">
+                    <i class="far fa-circle nav-icon"></i>
+                    <p>Privacy Policy</p>
+                  </a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a href="package.php" class="nav-link">
+                <i class="fa-solid fa-hand-holding-heart"></i>
+                <p>
+                  Packages
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="subscribtion.php" class="nav-link">
+                <i class="fa-solid fa-money-bill"></i>
+                <p>
+                  Subscription
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="patient.php" class="nav-link">
+                <i class="fa-solid fa-hospital-user"></i>
+                <p>
+                  Patient
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="complain.php" class="nav-link">
+                <i class="fa-solid fa-envelope"></i>
+                <p>
+                  Complain
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="settings.php" class="nav-link">
+                <i class="fa-solid fa-gear"></i>
+                <p>
+                  Settings
+                </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="appointment.php" class="nav-link">
+                <i class="fa-solid fa-calendar-check"></i>
+                <p>
+                  Appointments
                 </p>
               </a>
             </li>

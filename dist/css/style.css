@@ -5,3 +5,11 @@
 .w-7 {
     width: 7%;
 }
+
+.rounded-b {
+    border-radius: 25px !important;
+}
+
+.text-decoration-none {
+    text-decoration: none !important;
+}
