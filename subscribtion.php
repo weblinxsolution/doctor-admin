@@ -17,27 +17,29 @@
     <!-- Main content -->
     <section class="content">
         <div class="container-fluid">
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th scope="col">Name</th>
-                        <th scope="col">Plan</th>
-                        <th scope="col">Plan detail</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Dr. John Doe</td>
-                        <td>Monthly</td>
-                        <td>Basic health checkup with limited services</td>
-                    </tr>
-                    <tr>
-                        <td>Dr. Jane Smith</td>
-                        <td>Yearly</td>
-                        <td>Comprehensive health package with full diagnostics</td>
-                    </tr>
-                </tbody>
-            </table>
+            <div class="table-res">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Plan</th>
+                            <th scope="col">Plan detail</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Dr. John Doe</td>
+                            <td>Monthly</td>
+                            <td>Basic health checkup with limited services</td>
+                        </tr>
+                        <tr>
+                            <td>Dr. Jane Smith</td>
+                            <td>Yearly</td>
+                            <td>Comprehensive health package with full diagnostics</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
         </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->

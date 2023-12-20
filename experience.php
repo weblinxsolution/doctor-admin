@@ -17,39 +17,41 @@
   <!-- Main content -->
   <section class="content">
     <div class="container-fluid">
-      <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">Name</th>
-            <th scope="col">From (year)</th>
-            <th scope="col">To (year)</th>
-            <th scope="col">Position</th>
-            <th scope="col">Organization / Hospital</th>
-            <th scope="col">City</th>
-            <th scope="col">Country</th>
-          </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>John Doe</td>
-            <td>2010</td>
-            <td>2015</td>
-            <td>Software Engineer</td>
-            <td>ABC Tech</td>
-            <td>New York</td>
-            <td>USA</td>
-        </tr>
-        <tr>
-            <td>Jane Smith</td>
-            <td>2012</td>
-            <td>2018</td>
-            <td>Marketing Manager</td>
-            <td>XYZ Company</td>
-            <td>London</td>
-            <td>UK</td>
-        </tr>
-        </tbody>
-      </table>
+      <div class="table-res">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">From (year)</th>
+              <th scope="col">To (year)</th>
+              <th scope="col">Position</th>
+              <th scope="col">Organization / Hospital</th>
+              <th scope="col">City</th>
+              <th scope="col">Country</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John Doe</td>
+              <td>2010</td>
+              <td>2015</td>
+              <td>Software Engineer</td>
+              <td>ABC Tech</td>
+              <td>New York</td>
+              <td>USA</td>
+            </tr>
+            <tr>
+              <td>Jane Smith</td>
+              <td>2012</td>
+              <td>2018</td>
+              <td>Marketing Manager</td>
+              <td>XYZ Company</td>
+              <td>London</td>
+              <td>UK</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div><!-- /.container-fluid -->
   </section>
   <!-- /.content -->

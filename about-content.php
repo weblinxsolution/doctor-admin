@@ -17,7 +17,6 @@
     <!-- Main content -->
     <section class="content">
         <div class="container-fluid">
-            <!-- summernote -->
             <div id="summernote">
                 <p>Hello Summernote</p>
             </div>

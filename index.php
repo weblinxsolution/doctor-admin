@@ -78,9 +78,48 @@
                 <!-- ./col -->
             </div>
 
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="small-box shadow p-4 bg-warning">
+                        <div class="inner">
+                            <h3>150</h3>
+
+                            <p>Patients</p>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-list-check"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="small-box shadow p-4 bg-info">
+                        <div class="inner">
+                            <h3>90</h3>
+
+                            <p>Complaints</p>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-user-doctor"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="small-box shadow p-4 bg-success">
+                        <div class="inner">
+                            <h3>400</h3>
+
+                            <p>Appointments</p>
+                        </div>
+                        <div class="icon">
+                            <i class="fa-solid fa-signal"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
         </div><!-- /.container-fluid -->
     </section>
     <!-- /.content -->
 </div>
 
-<?php include('header.php') ?>
+<?php include('footer.php') ?>

@@ -17,30 +17,32 @@
   <!-- Main content -->
   <section class="content">
     <div class="container-fluid">
-      <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">Name</th>
-            <th scope="col">Field</th>
-            <th scope="col">Award</th>
-            <th scope="col">Year recieved</th>
-          </tr>
-        </thead>
-        <tbody>
-        <tr>
-            <td>Alice Smith</td>
-            <td>Physics</td>
-            <td>Nobel Prize</td>
-            <td>2020</td>
-        </tr>
-        <tr>
-            <td>Bob Johnson</td>
-            <td>Literature</td>
-            <td>Pulitzer Prize</td>
-            <td>2018</td>
-        </tr>
-        </tbody>
-      </table>
+      <div class="table-res">
+        <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Field</th>
+              <th scope="col">Award</th>
+              <th scope="col">Year recieved</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Alice Smith</td>
+              <td>Physics</td>
+              <td>Nobel Prize</td>
+              <td>2020</td>
+            </tr>
+            <tr>
+              <td>Bob Johnson</td>
+              <td>Literature</td>
+              <td>Pulitzer Prize</td>
+              <td>2018</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div><!-- /.container-fluid -->
   </section>
   <!-- /.content -->
